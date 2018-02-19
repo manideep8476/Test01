@@ -2,12 +2,18 @@
   <modelVersion>4.0.0</modelVersion>
   <groupId>junit-007</groupId>
   <artifactId>junit-007</artifactId>
-  <packaging>war</packaging>
   <version>0.0.1-SNAPSHOT</version>
 <properties>
 <maven.compiler.source>1.6</maven.compiler.source>
 <maven.compiler.target>1.6</maven.compiler.target>
- </properties>  
+ </properties> 
+  <plugin>
+    <artifactId>maven-war-plugin</artifactId>
+    <version>2.4</version>
+    <configuration>
+        <failOnMissingWebXml>false</failOnMissingWebXml>
+    </configuration>
+</plugin>
   <dependencies>
   	<dependency>
   <groupId>junit</groupId>
