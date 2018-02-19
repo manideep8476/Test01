@@ -7,13 +7,6 @@
 <maven.compiler.source>1.6</maven.compiler.source>
 <maven.compiler.target>1.6</maven.compiler.target>
  </properties> 
-  <plugin>
-    <artifactId>maven-war-plugin</artifactId>
-    <version>2.4</version>
-    <configuration>
-        <failOnMissingWebXml>false</failOnMissingWebXml>
-    </configuration>
-</plugin>
   <dependencies>
   	<dependency>
   <groupId>junit</groupId>
